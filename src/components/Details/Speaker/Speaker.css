@@ -1,0 +1,12 @@
+.Speaker {
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+@media(max-width: 500px) {
+    .Speaker {
+        margin-bottom: 0;
+    }
+}

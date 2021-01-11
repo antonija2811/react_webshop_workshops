@@ -1,0 +1,33 @@
+.Date {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.TempDate {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.TempTime {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.TempDate img {
+    margin-right: 0.3rem;
+}
+
+.TempTime img {
+    margin-right: 0.3rem;
+}
+
+@media(max-width: 500px) {
+    .Date {
+        font-size: 1rem;
+    }
+}

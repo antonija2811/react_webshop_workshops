@@ -1,0 +1,27 @@
+.CartTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.CartWorkshops {
+    display: flex;
+}
+
+.CloseCart {
+    display: flex;
+}
+
+.CloseCartImage {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.CloseCart img {
+    display: flex;
+    cursor: pointer;
+    height: 90%;
+    width: 90%;
+}

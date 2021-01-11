@@ -1,0 +1,320 @@
+.Details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+    padding-top: 3rem;
+}
+
+.Back {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    width: 20%;
+    text-decoration: none;
+}
+
+.Back a {
+    text-decoration: none;
+    color: black;
+}
+
+.BackLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.BackLink img {
+    display: flex;
+    height: 80%;
+}
+
+.BackLink p {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ProductDetails {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.ProductImage {
+    width: 95%;
+    height: 480px;
+}
+
+.ProductImage img {
+    z-index: 80;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.ProductInfo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    width: 95%;
+}
+
+.ProductInfo .InfoDetails {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 2.5rem;
+}
+
+.ProductInfo .Buying {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+
+}
+
+.CategoryAndDate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.InfoCategory {
+    display: flex;
+    border-radius: 6px; 
+    border: none;
+    background-color: lightgrey;
+    height: 28px;
+    width: 30px;
+    margin-right: 2rem;
+}
+
+.ProductInfo .Buying .BuyBox {
+    display: flex;
+    width: 55%;
+    border: 1px solid #F2F2F2;
+    box-shadow: 1px 2px 16px rgba(127, 127, 127, 0.35);
+    border-radius: 8px;
+}
+
+.ProductInfo .InfoDetails .Date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+.BuyTicket {
+    padding: 2rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BuyTicket p{
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.AddingToCart {
+    flex-direction: row;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.AddToCart button {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    background: #FFC80C;
+    box-shadow: 1px 2px 8px rgba(127, 127, 127, 0.25);
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.AddToCartButton {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.AddToCartButton button {
+    display: flex;
+    height: 3rem;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+    background: #FFC80C;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.AddToCartButton p {
+    color: #7F7F7F;
+    margin-top: 1rem;
+}
+
+.FormDetails {
+    display: flex;
+    width: 30%;
+    height: 3rem;
+}
+
+.FormDetails #dropdown {
+    display: flex;
+    height: 3rem;
+    padding: 0 0.7rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0097CC;
+    box-sizing: border-box;
+    border-radius: 8px; 
+    cursor: pointer;
+    outline: none;
+}
+
+.FormDetails #dropdown:active {
+    border: 2px solid #0097CC;
+}
+
+.Similar {
+    background-color:  #F2F2F2;;
+    height: auto;
+}
+
+@media(max-width: 500px) {
+    .Details {
+        flex-direction: column;
+        padding-top: 0;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .Back {
+        flex-direction: row;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .ProductDetails {
+        width: 95%;
+        position: relative;
+        margin-bottom: 5rem;
+    }
+
+    .ProductImage{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .ProductInfo {
+        width: 100%;
+        position: relative;
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .ProductInfo .Buying {
+        width: 100%;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        z-index: 200;
+        height: 5rem;
+        
+    }
+
+    .ProductInfo .Buying .BuyBox {
+        display: flex;
+        width: 100%;
+        border: 1px solid #F2F2F2;
+        box-shadow: 1px 2px 16px rgba(127, 127, 127, 0.35);
+        border-radius: 8px;
+        padding: 0;
+    }
+
+    .BuyTicket {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+
+    }
+
+    .BuyTicket p {
+        margin: 0;
+    }
+
+    .BuyTitle {
+        display: none;
+    }
+
+    .CategoryAndDate {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 1rem;
+        position: relative;
+    }
+
+    .CategoryAndDate .Date {
+        margin-top: 0;
+    }
+
+    .InfoCategory {
+        position: absolute;
+        top: -2rem;
+        right: 1rem;
+        margin-right: 0;
+    }
+
+    .ProductInfo .InfoDetails {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .ProductInfo .InfoDetails p {
+        margin: 1rem 0;
+        padding: 0 1rem;
+    }
+
+    .AddToCartButton p {
+        display: none;
+    }
+
+    .AddingToCart {
+        margin: 0;
+    }
+    
+    .AddToCartButton {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AddToCartButton button {
+        margin: 0 0.5rem;
+    }
+
+    .Similar {
+        z-index: 1;
+        position: relative;
+    }
+
+}

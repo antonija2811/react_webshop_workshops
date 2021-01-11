@@ -1,0 +1,38 @@
+.SimilarWorkshops {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-top: 2rem;
+    padding: 2.5rem 0;
+}
+
+.SimWorkshop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+
+@media(max-width: 500px) {
+    .SimilarWorkshops {
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+        z-index: 1;
+        position: relative;
+        margin-bottom: 5rem;
+    }
+
+    .SimilarWorkshops h2 {
+        margin: 0;
+        z-index: 1;
+        position: relative;
+    }
+
+    .SimWorkshop {
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+}

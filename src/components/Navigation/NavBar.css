@@ -1,0 +1,46 @@
+.NavBar {
+    background-color: #FFCE25;
+    height: 56px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    position: fixed;
+    z-index: 300;
+}
+
+.CartStateStyle {
+    margin-right: 10rem;
+}
+
+
+@media (min-width: 500px) {
+    .NavBar {
+        background-color: #FFCE25;
+        height: 56px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        align-items: center;
+        z-index: 90;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .NavBar .CartIcon p {
+        display: none;
+    }
+
+    .CartStateStyle {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,16 @@
+.DropdownForm {
+    display: flex;
+    height: 2.2rem;
+}
+
+.DropdownForm #dropdown {
+    display: flex;
+    padding: 0 0.3rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0097CC;
+    box-sizing: border-box;
+    border-radius: 8px; 
+    cursor: pointer;
+    outline: none;
+}

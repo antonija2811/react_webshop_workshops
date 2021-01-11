@@ -1,0 +1,31 @@
+.Cart {
+    position: fixed;
+    width: 380px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    overflow: scroll;
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+    display: none;
+}
+
+@media(max-width: 500px) {
+    .Cart {
+        width: 100%;
+        z-index: 400;
+    }
+
+
+}

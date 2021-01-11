@@ -1,0 +1,14 @@
+.CartLogo {
+    display: flex;
+    padding: 0.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.InCart img {
+    height: 0.6rem;
+    width: 0.6rem;
+    top: 0.4rem;
+    right: 0.5rem;
+    display: flex;
+}

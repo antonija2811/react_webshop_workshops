@@ -1,0 +1,14 @@
+.CartState {
+    display: flex;
+    align-items: center;
+}
+
+.CartState p {
+    font-size: 0.8rem;
+}
+
+@media(max-width: 500px) {
+    .CartState .State {
+        display: none;
+    }
+}
